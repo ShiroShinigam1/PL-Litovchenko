@@ -62,7 +62,7 @@ def button():
     elif c3.instate(['selected']) == True:
         messagebox.showinfo('Text', 'Вы выбрали третий вариант')
     elif ((c1.instate(['selected']) == True) and (c2.instate(['selected']) == True)):
-        messagebox.showinfo('Text', 'Вы выбрали первый и второй вариант')
+        messagebox.showinfo('Text', 'Вы выбрали первый и  второй вариант')
     else:
         lbl.configure(text="Вы ничего не выбрали :(", font=("Times New Roman", 14))
 
